@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/home.dart';
+import 'package:flutter_practice/module9/class%203.dart';
 
  class  MyApp extends StatelessWidget {
    const  MyApp({super.key});
@@ -8,7 +9,7 @@ import 'package:flutter_practice/home.dart';
    Widget build(BuildContext context) {
      return MaterialApp(
        title:"AppBar" ,
-       home: Home(
+       home: class3(
 
        ),
 
