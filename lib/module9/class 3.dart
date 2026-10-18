@@ -55,7 +55,7 @@ class class3 extends StatelessWidget {
             width: 25,
             ),
             IconButton(onPressed:(){},icon:Icon(Icons.delete_forever,size: 50,)) ,
-            
+
             GestureDetector(
                onTap: (){
                print(" on   tap");
