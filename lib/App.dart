@@ -1,21 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_practice/home.dart';
-import 'package:flutter_practice/module10/class1.dart';
-import 'package:flutter_practice/module10/class2.dart';
+import 'package:flutter_practice/module10/class3.dart';
 
-import 'package:flutter_practice/module9/class%203.dart';
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
- class  MyApp extends StatelessWidget {
-   const  MyApp({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "AppBar",
+      home: Module10Class3(),
+    );
+  }
+}
 
-   @override
-   Widget build(BuildContext context) {
-     return MaterialApp(
-       title:"AppBar" ,
-       home:class2(
 
-       ),
-
-     );
-   }
- }

@@ -12,23 +12,41 @@ class class2 extends StatelessWidget {
       ), body:Column(
       children: [
 
-        Center(child: Text(" Again practice",style: TextStyle(fontSize: 20,
-            fontWeight:FontWeight.bold,
-            color: Colors.deepPurple ),)),
+         Container(
+             height: 200,
+             width: 200,
+             color:Colors.black, child: Text('This is the overflow  Don’t get blocked by carriers! '
+                 ' The Campaign Registry (TCR) mandates new requirements businesses '
+                 'texting customers in the United States.  These are new requirements for '
+                 'A2P 10DLC (application-to-person, 10 digit lon',
+               style:TextStyle(fontSize: 20,
+             fontWeight:FontWeight.bold,color:Colors.blueAccent),
+             textAlign: TextAlign.center,
+               maxLines: 2,
+               overflow: TextOverflow.ellipsis,
 
-        Align(
-          alignment: Alignment.topRight,
-          child: Text(" Again practice",style: TextStyle(fontSize: 20,
-              fontWeight:FontWeight.bold,
-              color: Colors.deepPurple ),),
-        ),
-        SizedBox(
 
-        ),
+             )),
+
+
+
+        // Center(
+        //   child: Text(" Again practice",style: TextStyle(fontSize: 20,
+        //       fontWeight:FontWeight.bold,
+        //       color: Colors.deepPurple ),),
+        // ),
+
+        // Align(
+        //   child: Text(" Again practice",style: TextStyle(fontSize: 20,
+        //       fontWeight:FontWeight.bold,
+        //       color: Colors.deepPurple ),),
+        // ),
+      SizedBox(
+        height: 200,
+      ),
         Container(
           padding: EdgeInsets.all(10),
           margin: EdgeInsets.all(16),
-
           alignment:Alignment.bottomCenter,
           height: 200,
           width: 200,
